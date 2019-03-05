@@ -28,6 +28,7 @@ Add session_store.rb to initializers with the following example configuration:
      param: "msid",
      serializer: JSON
    }
+```
 
 ## Contributing
 

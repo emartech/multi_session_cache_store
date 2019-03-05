@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["david.mihalek@emarsys.com"]
 
   spec.summary       = %q{Multi Session Cache Store}
-  spec.homepage      = "https://github.com/mihdavid/multi_session_cache_store.git"
+  spec.homepage      = "https://github.com/emartech/multi_session_cache_store.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
     # spec.metadata["allowed_push_host"] = "http://rubygems.org"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/mihdavid/multi_session_cache_store.git"
-    spec.metadata["changelog_uri"] = "https://github.com/mihdavid/multi_session_cache_store.git/releases"
+    spec.metadata["source_code_uri"] = "https://github.com/emartech/multi_session_cache_store.git"
+    spec.metadata["changelog_uri"] = "https://github.com/emartech/multi_session_cache_store.git/releases"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
