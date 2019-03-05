@@ -1,5 +1,5 @@
 class MultiSessionCacheStore < ActionDispatch::Session::AbstractStore
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   def initialize(app, options = {})
     @cache = options[:cache] || Rails.cache
@@ -33,7 +33,7 @@ class MultiSessionCacheStore < ActionDispatch::Session::AbstractStore
   private
 
   def cache_key(env, sid)
-    subsession_id = env.params[@param] || generate_sid
+    subsession_id = env.params[@param] || "no_subsession"
     "_session_id:#{sid}:#{subsession_id}"
   end
 end

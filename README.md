@@ -32,7 +32,7 @@ Add session_store.rb to initializers with the following example configuration:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/mihdavid/multi_session_cache_store.
+Bug reports and pull requests are welcome on GitHub at https://github.com/emartech/multi_session_cache_store.
 
 ## License
 
