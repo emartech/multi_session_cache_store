@@ -1,5 +1,10 @@
 # MultiSessionCacheStore
 
+**Notice**: This gem is made obsolete by the [MultiSessionStore](https://github.com/emartech/multi_session_store) gem.
+Absolutely no support or further development will be provided here.
+
+Please use the [MultiSessionStore](https://github.com/emartech/multi_session_store) gem instead.
+
 This gem makes your rails application support multi sessions from different tabs in the same browser
 
 ## Installation
